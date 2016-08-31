@@ -55,23 +55,20 @@ class  MY_Controller  extends  MX_Controller {
 				}
 			}
 		}
-
-		
-		//load custom made js
-		foreach ($arr as $js) {
-			foreach($all_js as $all){
-				if($js==$all['title']){
-					$libs['js_files']			=	array_merge($libs['js_files'],array($all['file']));
-				}
-			}
-		}
-
 		//load plugin js from the plugin js folder
 		foreach ($arr as $js) {
 			foreach($all_plugin_js as $all){
 				if($js==$all['title']){
 					$libs['js_plugin_files']	=	array_merge($libs['js_plugin_files'],array($all['file']));
 
+				}
+			}
+		}
+		//load custom made js
+		foreach ($arr as $js) {
+			foreach($all_js as $all){
+				if($js==$all['title']){
+					$libs['js_files']			=	array_merge($libs['js_files'],array($all['file']));
 				}
 			}
 		}

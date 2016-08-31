@@ -6,20 +6,18 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- about this site -->
-<meta name="description" content="A web platform that helps to expose the touring experiences.">
+<meta name="description" content="">
 <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
-<meta name="author" content="Star Sarifi Tours">
+<meta name="author" content="ADT Team">
 <meta name="Resource-type" content="Document">
-<!-- <script src="assets/plugins/jquery/jquery-1.11.3.min.js"></script>
- --><!-- Attaching the aadverntsafaris Icon logo -->
-<link rel="shortcut icon" type="img/x-icon" href="<?php echo base_url() .'assets/icons/afric.jpg'?>"/>
+<link rel="shortcut icon" type="img/x-icon" href="<?php echo base_url() .'assets/icons/state_kenya.png'?>"/>
 <!-- dynamic files includes all the .js .css plugins-->
  	<?php      	
 		$this->load->view('utils/dynamic_files');//..............this is to autoload the dynamic css and js files
 	?>
 
 <!-- Here is the title of Each page Module -->
-<title>Star Safiri | <?php echo $title; ?></title>
+<title>Migration Tool | <?php echo $title; ?></title>
 
 </head>
 

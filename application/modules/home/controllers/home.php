@@ -14,8 +14,7 @@ class home extends MY_Controller {
 
 		$data['title']="Homepage";
 
-		$data = array_merge($data,$this->load_libraries(array('custom','carousel','lightbox','lightboxjs','bootmin')));
-		// echo "<pre>";print_r($data);die();
+		$data = array_merge($data,$this->load_libraries(array('navbar','boostrap','jquery-migrate','jquery')));
 		$this->template($data);
 	}
 
