@@ -64,7 +64,8 @@ $config['files_path']		=	'assets/files/';
 
 $config['css_files']		=	array(
 									array('title' => 'custom'	,	'file'	=>	'custom.css'),
-									array('title' => 'navbar'	,	'file'	=>	'navbar.css')
+									array('title' => 'navbar'	,	'file'	=>	'navbar.css'),
+									array('title' => 'buttons'	,	'file'	=>	'buttons.css')
 									);
 $config['js_files']			=	array(
 									// array('title'=>	'jquery',	'file'	=>	'jquery-3.1.0.min.js')

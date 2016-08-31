@@ -14,7 +14,7 @@ class home extends MY_Controller {
 
 		$data['title']="Homepage";
 
-		$data = array_merge($data,$this->load_libraries(array('navbar','boostrap','jquery-migrate','jquery')));
+		$data = array_merge($data,$this->load_libraries(array('navbar','buttons','boostrap','jquery-migrate','jquery')));
 		$this->template($data);
 	}
 
